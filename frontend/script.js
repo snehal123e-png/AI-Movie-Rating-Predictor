@@ -30,7 +30,7 @@ const predictButton =
 
 
 const API_URL =
-    "https://YOUR-RENDER-BACKEND.onrender.com/predict";
+    "https://ai-movie-rating-predictor.onrender.com/predict";
 
 
 form.addEventListener(
