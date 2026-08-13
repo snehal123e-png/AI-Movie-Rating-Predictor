@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        AI Movie Rating Predictor
+    </title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <header class="navbar">
+
+        <div class="logo">
+            🎬 MovieAI
+        </div>
+
+        <div class="nav-text">
+            AI Movie Rating Predictor
+        </div>
+
+    </header>
+
+
+    <main class="container">
+
+        <section class="hero">
+
+            <p class="badge">
+                MACHINE LEARNING PROJECT
+            </p>
+
+            <h1>
+                AI Movie Rating Predictor
+            </h1>
+
+            <p>
+                Enter movie details manually and let
+                our Machine Learning model predict
+                the IMDb rating.
+            </p>
+
+        </section>
+
+
+        <section class="card">
+
+            <form id="predictionForm">
+
+                <div class="form-grid">
+
+                    <div class="input-group">
+
+                        <label for="genre">
+                            Genre
+                        </label>
+
+                        <input type="text" id="genre" placeholder="Action" required>
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label for="runtime">
+                            Runtime (minutes)
+                        </label>
+
+                        <input type="number" id="runtime" placeholder="120" min="1" required>
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label for="budget">
+                            Budget
+                        </label>
+
+                        <input type="number" id="budget" placeholder="100000000" min="0" required>
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label for="year">
+                            Release Year
+                        </label>
+
+                        <input type="number" id="year" placeholder="2024" min="1900" max="2100" required>
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label for="votes">
+                            IMDb Votes
+                        </label>
+
+                        <input type="number" id="votes" placeholder="500000" min="0" required>
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label for="gross">
+                            Gross Revenue
+                        </label>
+
+                        <input type="number" id="gross" placeholder="300000000" min="0" required>
+
+                    </div>
+
+                </div>
+
+
+                <button type="submit" id="predictButton">
+                    🤖 Predict IMDb Rating
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <section id="result" class="result-card hidden">
+
+            <p>
+                PREDICTED IMDb RATING
+            </p>
+
+            <div id="rating">
+                --
+            </div>
+
+            <h2 id="category">
+                --
+            </h2>
+
+            <p id="message">
+                --
+            </p>
+
+        </section>
+
+
+        <section class="info-section">
+
+            <div class="info-card">
+
+                <span>
+                    🤖
+                </span>
+
+                <h3>
+                    AI Prediction
+                </h3>
+
+                <p>
+                    Machine Learning model predicts
+                    the expected movie rating.
+                </p>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <span>
+                    ✍️
+                </span>
+
+                <h3>
+                    Manual Input
+                </h3>
+
+                <p>
+                    Enter movie characteristics
+                    manually through the form.
+                </p>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <span>
+                    📊
+                </span>
+
+                <h3>
+                    Data Analysis
+                </h3>
+
+                <p>
+                    Prediction is based on
+                    movie-related features.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            AI Movie Rating Predictor © 2026
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
