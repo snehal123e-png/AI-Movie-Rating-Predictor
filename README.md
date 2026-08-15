@@ -7,7 +7,7 @@ A full-stack AI + manual movie rating prediction project.
 - Frontend: HTML, CSS, JavaScript
 - Backend: Python + FastAPI
 - Machine Learning: Pandas + Scikit-learn
-- Frontend deployment: Vercel
+- Frontend deployment: Github
 - Backend deployment: Render
 
 ## Structure
